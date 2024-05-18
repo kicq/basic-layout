@@ -57,12 +57,14 @@ body{
     text-align: center;
     margin-left: 176px;
     padding-top: 18px;
+    width:47px
 }
 .art-text {
     
     font-size: 28px;
     color: #242424;
     margin-left: 111px;
+    width: 524px;
 }
 .articles {
     margin-top: 170px;
