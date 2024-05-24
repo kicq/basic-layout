@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.body {
+    font-family: "Fira Sans";
+}
+
+.first-slide {
+    background-image: url(./pics/bg.jpg);
+    height: 736px;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    width: 1109px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid red;
+    width: 100%;
+}
+.phone-text {
+    font-size: 20px;
+    color: white;
+}
+.phone {
+    display: flex;
+    flex-direction: row;
+}
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    gap:16px;
+    justify-content: center;
+}
+.nav-item {
+    background: none;
+    border: none;
+    color: white;
+}
+.nav {
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+}
+.phone-img {
+    margin-left: 35px;
+}
+.title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+}
+.orange-block {
+    width: 245px;
+    height: 65px;
+    background-color: #DBA069;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+.or-text {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.cottage-info {
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.number{
+    color: white;
+    font-size: 128px;
+}
+.number-info {
+    color: white;
+    width: 118px;
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.l-info-colums{
+    display: flex;
+    flex-direction: row;
+}
+.r-column-text {
+    color:white;
+    font-size: 16px;
+}
+.r-column {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    align-items: end;
+    padding-bottom: 310px;
+    align-items: start;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 124px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
